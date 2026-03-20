@@ -921,12 +921,7 @@ footer .footer-accent { color: var(--accent); }
         </a>
       </div>
     </div>
-    <form class="contact-form" action="https://formspree.io/f/mreyjlyo" method="POST"></form>
-      <input type="text" placeholder="Your Name" required>
-      <input type="email" placeholder="Your Email" required>
-      <textarea placeholder="Your Message"></textarea>
-      <button type="submit">Send Message →</button>
-    </form>
+   
   </div>
 </section>
 
@@ -981,13 +976,7 @@ style.textContent = '@keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }';
 document.head.appendChild(style);
 
 // Form submit
-function handleSubmit(e) {
-  e.preventDefault();
-  const btn = e.target.querySelector('button');
-  btn.textContent = 'Message Sent ✓';
-  btn.style.background = '#00f5c4';
-  setTimeout(() => { btn.textContent = 'Send Message →'; btn.style.background = ''; }, 3000);
-}
+
 </script>
 </body>
 </html>
